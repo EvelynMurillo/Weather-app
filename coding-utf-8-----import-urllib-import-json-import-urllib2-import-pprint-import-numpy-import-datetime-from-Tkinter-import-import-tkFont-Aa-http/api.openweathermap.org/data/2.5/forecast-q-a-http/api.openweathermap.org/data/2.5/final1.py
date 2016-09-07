@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
+#libraries
 import urllib
 import json
 import urllib2
 import pprint
 import numpy
 import datetime
-
+#we need this to be able to use the gui tkinter
 from Tkinter import *
 import tkFont
+#api 
 Aa = "http://api.openweathermap.org/data/2.5/forecast?q="
 a="http://api.openweathermap.org/data/2.5/weather?q="
 b="&units=metric&APPID=72d94a54e72d5548bc7a01c74350762d"
